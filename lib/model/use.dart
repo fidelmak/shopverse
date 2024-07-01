@@ -29,17 +29,20 @@ class _UseAppState extends State<UseApp> {
   @override
   Widget build(BuildContext context) {
     return _items.isNotEmpty
-        ? Expanded(child: ListView.builder(itemBuilder: (context, index) {
-            return Card(
-              key: ValueKey(_items[index]['id'.toString()]),
-              margin: EdgeInsets.all(16),
-              child: ListTile(
-                leading: Text(_items[index]['id'.toString()]),
-                title: Text(_items[index]['name']),
-                subtitle: Text(_items[index]['price']),
-              ),
-            );
-          }))
+        ? SingleChildScrollView(
+            child:
+                Expanded(child: ListView.builder(itemBuilder: (context, index) {
+              return Card(
+                key: ValueKey(_items[index]['id'.toString()]),
+                margin: EdgeInsets.all(16),
+                child: ListTile(
+                  leading: Image.network(_items[index]["image"]),
+                  title: Text(_items[index]['name']),
+                  subtitle: Text(_items[index]['price']),
+                ),
+              );
+            })),
+          )
         : Container(
             child: Center(
               child: TextButton(
