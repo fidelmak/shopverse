@@ -1,302 +1,64 @@
-[
+{
+  "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Product 1",
-      "price": 19.99,
-      "image": "https://example.com/images/product1.jpg"
+      "price": "19.99",
+      "image": "https://m.media-amazon.com/images/I/617AAEmjdbL._AC_UY218_.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Product 2",
-      "price": 29.99,
-      "image": "https://example.com/images/product2.jpg"
+      "price": "29.99",
+      "image": "https://m.media-amazon.com/images/I/51FRJHB7XOL._AC_UY218_.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Product 3",
-      "price": 39.99,
-      "image": "https://example.com/images/product3.jpg"
+      "price": "39.99",
+      "image": "https://m.media-amazon.com/images/I/61knlqJnutL._AC_UY218_.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Product 4",
-      "price": 49.99,
-      "image": "https://example.com/images/product4.jpg"
+      "price": "49.99",
+      "image": "https://m.media-amazon.com/images/I/611LReeBjVL._AC_UY218_.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Product 5",
-      "price": 59.99,
-      "image": "https://example.com/images/product5.jpg"
+      "price": "59.99",
+      "image": "https://m.media-amazon.com/images/I/815uX7wkOZS._AC_UY218_.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Product 6",
-      "price": 69.99,
-      "image": "https://example.com/images/product6.jpg"
+      "price": "69.99",
+      "image": "https://m.media-amazon.com/images/I/71pTP-ll4sL._AC_UY218_.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Product 7",
-      "price": 79.99,
-      "image": "https://example.com/images/product7.jpg"
+      "price": "79.99",
+      "image": "https://m.media-amazon.com/images/I/6194G+5e3RL._AC_UY218_.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Product 8",
-      "price": 89.99,
-      "image": "https://example.com/images/product8.jpg"
+      "price": "89.99",
+      "image": "https://m.media-amazon.com/images/I/61CZSoSnVPL._AC_UY218_.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Product 9",
-      "price": 99.99,
-      "image": "https://example.com/images/product9.jpg"
+      "price": "99.99",
+      "image": "https://m.media-amazon.com/images/I/71LT+lhcvpL._AC_UY218_.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Product 10",
-      "price": 109.99,
-      "image": "https://example.com/images/product10.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Product 11",
-      "price": 119.99,
-      "image": "https://example.com/images/product11.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Product 12",
-      "price": 129.99,
-      "image": "https://example.com/images/product12.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Product 13",
-      "price": 139.99,
-      "image": "https://example.com/images/product13.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Product 14",
-      "price": 149.99,
-      "image": "https://example.com/images/product14.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Product 15",
-      "price": 159.99,
-      "image": "https://example.com/images/product15.jpg"
-    },
-    {
-      "id": 16,
-      "name": "Product 16",
-      "price": 169.99,
-      "image": "https://example.com/images/product16.jpg"
-    },
-    {
-      "id": 17,
-      "name": "Product 17",
-      "price": 179.99,
-      "image": "https://example.com/images/product17.jpg"
-    },
-    {
-      "id": 18,
-      "name": "Product 18",
-      "price": 189.99,
-      "image": "https://example.com/images/product18.jpg"
-    },
-    {
-      "id": 19,
-      "name": "Product 19",
-      "price": 199.99,
-      "image": "https://example.com/images/product19.jpg"
-    },
-    {
-      "id": 20,
-      "name": "Product 20",
-      "price": 209.99,
-      "image": "https://example.com/images/product20.jpg"
-    },
-    {
-      "id": 21,
-      "name": "Product 21",
-      "price": 219.99,
-      "image": "https://example.com/images/product21.jpg"
-    },
-    {
-      "id": 22,
-      "name": "Product 22",
-      "price": 229.99,
-      "image": "https://example.com/images/product22.jpg"
-    },
-    {
-      "id": 23,
-      "name": "Product 23",
-      "price": 239.99,
-      "image": "https://example.com/images/product23.jpg"
-    },
-    {
-      "id": 24,
-      "name": "Product 24",
-      "price": 249.99,
-      "image": "https://example.com/images/product24.jpg"
-    },
-    {
-      "id": 25,
-      "name": "Product 25",
-      "price": 259.99,
-      "image": "https://example.com/images/product25.jpg"
-    },
-    {
-      "id": 26,
-      "name": "Product 26",
-      "price": 269.99,
-      "image": "https://example.com/images/product26.jpg"
-    },
-    {
-      "id": 27,
-      "name": "Product 27",
-      "price": 279.99,
-      "image": "https://example.com/images/product27.jpg"
-    },
-    {
-      "id": 28,
-      "name": "Product 28",
-      "price": 289.99,
-      "image": "https://example.com/images/product28.jpg"
-    },
-    {
-      "id": 29,
-      "name": "Product 29",
-      "price": 299.99,
-      "image": "https://example.com/images/product29.jpg"
-    },
-    {
-      "id": 30,
-      "name": "Product 30",
-      "price": 309.99,
-      "image": "https://example.com/images/product30.jpg"
-    },
-    {
-      "id": 31,
-      "name": "Product 31",
-      "price": 319.99,
-      "image": "https://example.com/images/product31.jpg"
-    },
-    {
-      "id": 32,
-      "name": "Product 32",
-      "price": 329.99,
-      "image": "https://example.com/images/product32.jpg"
-    },
-    {
-      "id": 33,
-      "name": "Product 33",
-      "price": 339.99,
-      "image": "https://example.com/images/product33.jpg"
-    },
-    {
-      "id": 34,
-      "name": "Product 34",
-      "price": 349.99,
-      "image": "https://example.com/images/product34.jpg"
-    },
-    {
-      "id": 35,
-      "name": "Product 35",
-      "price": 359.99,
-      "image": "https://example.com/images/product35.jpg"
-    },
-    {
-      "id": 36,
-      "name": "Product 36",
-      "price": 369.99,
-      "image": "https://example.com/images/product36.jpg"
-    },
-    {
-      "id": 37,
-      "name": "Product 37",
-      "price": 379.99,
-      "image": "https://example.com/images/product37.jpg"
-    },
-    {
-      "id": 38,
-      "name": "Product 38",
-      "price": 389.99,
-      "image": "https://example.com/images/product38.jpg"
-    },
-    {
-      "id": 39,
-      "name": "Product 39",
-      "price": 399.99,
-      "image": "https://example.com/images/product39.jpg"
-    },
-    {
-      "id": 40,
-      "name": "Product 40",
-      "price": 409.99,
-      "image": "https://example.com/images/product40.jpg"
-    },
-    {
-      "id": 41,
-      "name": "Product 41",
-      "price": 419.99,
-      "image": "https://example.com/images/product41.jpg"
-    },
-    {
-      "id": 42,
-      "name": "Product 42",
-      "price": 429.99,
-      "image": "https://example.com/images/product42.jpg"
-    },
-    {
-      "id": 43,
-      "name": "Product 43",
-      "price": 439.99,
-      "image": "https://example.com/images/product43.jpg"
-    },
-    {
-      "id": 44,
-      "name": "Product 44",
-      "price": 449.99,
-      "image": "https://example.com/images/product44.jpg"
-    },
-    {
-      "id": 45,
-      "name": "Product 45",
-      "price": 459.99,
-      "image": "https://example.com/images/product45.jpg"
-    },
-    {
-      "id": 46,
-      "name": "Product 46",
-      "price": 469.99,
-      "image": "https://example.com/images/product46.jpg"
-    },
-    {
-      "id": 47,
-      "name": "Product 47",
-      "price": 479.99,
-      "image": "https://example.com/images/product47.jpg"
-    },
-    {
-      "id": 48,
-      "name": "Product 48",
-      "price": 489.99,
-      "image": "https://example.com/images/product48.jpg"
-    },
-    {
-      "id": 49,
-      "name": "Product 49",
-      "price": 499.99,
-      "image": "https://example.com/images/product49.jpg"
-    },
-    {
-      "id": 50,
-      "name": "Product 50",
-      "price": 509.99,
-      "image": "https://example.com/images/product50.jpg"
+      "price": "109.99",
+      "image": "https://m.media-amazon.com/images/I/71n1iUqJZnL._AC_UY218_.jpg"
     }
   ]
+}

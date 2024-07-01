@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopverse/model/use.dart';
 import 'package:shopverse/screen/home_page.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -6,6 +7,6 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: MyHomePage());
+    return Scaffold(body: UseApp());
   }
 }
