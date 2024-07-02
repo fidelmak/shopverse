@@ -56,7 +56,15 @@ class _CheckoutPageState extends State<CheckoutPage> {
     });
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('All items removed from cart'),
+        content: Theme(
+          data: Theme.of(context).copyWith(
+            textTheme: TextTheme(
+              bodyText2: TextStyle(color: Colors.black),
+            ),
+          ),
+          child: Text('All items removed from cart'),
+        ),
+        backgroundColor: Colors.white,
         duration: Duration(seconds: 2),
       ),
     );

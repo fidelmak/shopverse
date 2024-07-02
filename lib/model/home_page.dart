@@ -42,7 +42,7 @@ class _UseAppState extends State<UseApp> {
   }
 
   Future<void> fetchProducts() async {
-    final String response = await rootBundle.loadString('assets/data.json');
+    final String response = await rootBundle.loadString('lib/assets/data.json');
     final data = await json.decode(response);
     setState(() {
       _items = data["products"];
