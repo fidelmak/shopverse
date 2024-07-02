@@ -1,6 +1,6 @@
 # Shopverse Mobile App
 
-Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse allows users to effortlessly browse, buy products, and place orders using the mobile app, with transactions made in Naira.
+Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse allows users to effortlessly browse, buy gadgets , and place orders using the mobile app
 
 ## Table of Contents
 - [Features](#features)
