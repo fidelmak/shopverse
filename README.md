@@ -20,9 +20,8 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 
 
 ## Installation
-1. **Download the app**: Available on [Google Play Store](#) and [Apple App Store](#).
-2. **Install the app**: Follow the on-screen instructions to install the app on your mobile device.
-3. **Sign Up/Login**: Create a new account or log in using your existing credentials.
+. **Download the app**: Available on [Google drive](https://drive.google.com/file/d/1eyExb27JgOwGoY4QHiXGzBtFUq84s7Wx/view?usp=drive_link).
+
 
 ## Usage
 
