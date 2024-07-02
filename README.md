@@ -26,12 +26,12 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 ## Usage
 
 ### Browsing Products
-1. **Home Screen**: Explore featured products and categories.
+ **Home Screen**: Explore featured gadgets.
 
 
 ### Placing an Order
-1. **Select Product**: Tap on a product to view its details.
-2. **Add to Cart**: Click on 'Add to Cart' to include the product in your shopping cart.
+1. **Select Product**.
+2. **Add **: Click on 'Add ' to include the product in your shopping cart.
 3. **View Cart**: Go to your cart to review selected items.
 4. **Checkout**: Proceed to checkout by entering your shipping details.
 
@@ -74,9 +74,9 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 
 
 
-## View
-Appetizer view
+## View on Appetize
+<b>Appetize </b> 
 
-interact with the website using this link https://appetize.io/app/e5smlxelxeqzhnz2z4gqdgmhri?device=pixel7&osVersion=13.0&record=true
-
+<i> interact with the website using this link https://appetize.io/app/e5smlxelxeqzhnz2z4gqdgmhri?device=pixel7&osVersion=13.0&record=true
+</i>
 ---
