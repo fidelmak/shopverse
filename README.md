@@ -41,7 +41,7 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 
 ## Screenshots
 
-<img src="assets/images/homepage.png" alt="Example Image" width="200" height="100"/>
+<center> <img src="assets/images/homepage.png" alt="Example Image" width="100" height="300"/> </center>
 
 
 ## Support
