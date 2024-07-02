@@ -40,14 +40,20 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 
 
 ## Screenshots
+- HomePage
+ <img src="assets/images/homepage.png" alt="Example Image" width="500" height="500"/>
 
-<center> <img src="assets/images/homepage.png" alt="Example Image" width="100" height="300"/> </center>
+- HomePage2
+ <img src="assets/images/homepage2.png" alt="Example Image" width="500" height="500"/>
+- Cart Page
+ <img src="assets/images/addedtocart.png" alt="Example Image" width="500" height="500"/>
+- Check-Out page with price
+ <img src="assets/images/checkoutpage.png" alt="Example Image" width="500" height="500"/>
+- Check-Out Successful
+ <img src="assets/images/checkoutsucces.png" alt="Example Image" width="500" height="500"/> 
 
 
-## Support
-If you encounter any issues or have any questions, please contact our support team:
-- **Email**: support@shopverse.com
-- **Phone**: +234 123 456 7890
+
 
 
 
