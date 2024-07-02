@@ -58,14 +58,14 @@ class _CheckoutPageState extends State<CheckoutPage> {
       SnackBar(
         content: Theme(
           data: Theme.of(context).copyWith(
-            textTheme: TextTheme(
+            textTheme: const TextTheme(
               bodyText2: TextStyle(color: Colors.black),
             ),
           ),
-          child: Text('All items removed from cart'),
+          child: const Text('All items removed from cart'),
         ),
         backgroundColor: Colors.white,
-        duration: Duration(seconds: 2),
+        duration: const Duration(seconds: 2),
       ),
     );
   }
@@ -78,7 +78,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Checkout'),
+        title: const Text('Checkout'),
       ),
       body: Center(
         child: Column(

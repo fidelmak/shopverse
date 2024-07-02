@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'banner.dart';
 import 'category.dart';
 import 'product_card.dart';
 

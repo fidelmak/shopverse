@@ -44,7 +44,7 @@ class _CartViewState extends State<CartView> {
       _cartItems.clear();
     });
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
+      const SnackBar(
         content: Text('All items removed from cart'),
         duration: Duration(seconds: 2),
       ),

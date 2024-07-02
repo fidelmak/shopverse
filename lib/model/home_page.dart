@@ -2,18 +2,16 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:shopverse/components/banner.dart';
+
 import 'package:shopverse/components/bottom_nav.dart';
 
 import 'package:shopverse/screens/cart.dart';
-import 'dart:convert' as convert;
 
 import '../components/category.dart';
 import '../components/product_card.dart';
 import '../components/products.dart';
 import '../const/colors.dart';
-import '../screens/checkout.dart';
-
+// Homepage declaring a stateful widget 
 class UseApp extends StatefulWidget {
   const UseApp({super.key});
 
@@ -103,7 +101,7 @@ class _UseAppState extends State<UseApp> {
                           child: Products(
                             features: CategoryFeatures(
                               categoryText1: Text(
-                                "Bext Gadgets  ",
+                                "Best Gadgets  ",
                                 style:
                                     TextStyle(fontSize: 20, color: textBlack),
                               ),
