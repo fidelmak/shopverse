@@ -52,4 +52,6 @@ If you encounter any issues or have any questions, please contact our support te
 ## View
 Appetizer view
 
+interact with the website using this link https://appetize.io/app/e5smlxelxeqzhnz2z4gqdgmhri?device=pixel7&osVersion=13.0&record=true
+
 ---
