@@ -40,7 +40,7 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 
 
 ## Screenshots
-[Include screenshots of the app's interface here.]
+[(https://github.com/fidelmak/shopverse/blob/master/assets/images/homepage.png?raw=true).]
 
 ## Support
 If you encounter any issues or have any questions, please contact our support team:
