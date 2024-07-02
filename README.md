@@ -43,15 +43,30 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 - HomePage
  <img src="assets/images/homepage.png" alt="Example Image" width="500" height="900"/>
 <br />
+<br />
+<br />
+<br />
 - HomePage2
  <img src="assets/images/homepage2.png" alt="Example Image" width="500" height="900"/>
  <br />
+ <br />
+<br />
+<br />
+<br />
 - Cart Page
  <img src="assets/images/addedtocart.png" alt="Example Image" width="500" height="900"/>
  <br />
+ <br />
+<br />
+<br />
+<br />
 - Check-Out page with price
  <img src="assets/images/checkoutpage.png" alt="Example Image" width="500" height="900"/>
  <br />
+ <br />
+<br />
+<br />
+<br />
 - Check-Out Successful
  <img src="assets/images/checkoutsucces.png" alt="Example Image" width="500" height="900"/> 
 
