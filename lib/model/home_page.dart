@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shopverse/components/banner.dart';
 import 'package:shopverse/components/bottom_nav.dart';
-import 'package:shopverse/model/product.dart';
+
 import 'package:shopverse/screens/cart.dart';
 import 'dart:convert' as convert;
 
@@ -12,8 +12,7 @@ import '../components/category.dart';
 import '../components/product_card.dart';
 import '../components/products.dart';
 import '../const/colors.dart';
-import '../splash.dart';
-import 'retrieve.dart';
+import '../screens/checkout.dart';
 
 class UseApp extends StatefulWidget {
   const UseApp({super.key});
@@ -59,7 +58,10 @@ class _UseAppState extends State<UseApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNav(items: _addedItems,),
+      bottomNavigationBar: BottomNav(
+        items: _addedItems,
+        cartItems: _addedItems,
+      ),
       backgroundColor: textWhite,
       body: Column(
         children: [
@@ -101,12 +103,12 @@ class _UseAppState extends State<UseApp> {
                           child: Products(
                             features: CategoryFeatures(
                               categoryText1: Text(
-                                "Experience  ",
+                                "Bext Gadgets  ",
                                 style:
                                     TextStyle(fontSize: 20, color: textBlack),
                               ),
                               categoryText2: Text(
-                                "more ",
+                                "view ",
                                 style: TextStyle(fontSize: 16, color: textBlue),
                               ),
                               categoryFunction1: () {},
@@ -140,101 +142,6 @@ class _UseAppState extends State<UseApp> {
                   child: Center(
                   child: CircularProgressIndicator(),
                 )),
-        ],
-      ),
-    );
-  }
-}
-
-class BottomNav extends StatefulWidget {
-  final List items; // Add this to pass the items
-
-  const BottomNav(
-      {super.key,
-      required this.items}); // Modify the constructor to accept items
-
-  @override
-  State<BottomNav> createState() => _BottomNavState();
-}
-
-class _BottomNavState extends State<BottomNav> {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.symmetric(vertical: 10),
-      color: Colors.white,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          Expanded(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                IconButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => UseApp(),
-                        ),
-                      );
-                    },
-                    icon: Icon(Icons.home)),
-                Text(
-                  'Home',
-                  style: TextStyle(fontSize: 12),
-                )
-              ],
-            ),
-          ),
-          Expanded(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                IconButton(
-                    onPressed: () {}, icon: Icon(Icons.favorite_outline)),
-                Text(
-                  'Wishlist',
-                  style: TextStyle(fontSize: 12),
-                )
-              ],
-            ),
-          ),
-          Expanded(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                IconButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) =>
-                              CartView(cartItems: widget.items),
-                        ),
-                      );
-                    },
-                    icon: Icon(Icons.shopping_cart_outlined)),
-                Text(
-                  'Cart',
-                  style: TextStyle(fontSize: 12),
-                )
-              ],
-            ),
-          ),
-          Expanded(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                IconButton(
-                    onPressed: () {}, icon: Icon(Icons.person_4_outlined)),
-                Text(
-                  'Checkout',
-                  style: TextStyle(fontSize: 12),
-                )
-              ],
-            ),
-          ),
         ],
       ),
     );

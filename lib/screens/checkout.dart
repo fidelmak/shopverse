@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopverse/model/use.dart';
-import 'package:shopverse/splash.dart';
+import 'package:shopverse/model/home_page.dart';
 
 class CheckoutPage extends StatefulWidget {
   final double totalPrice;
