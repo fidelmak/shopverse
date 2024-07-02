@@ -20,19 +20,18 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 
 
 ## Installation
-1. **Download the app**: Available on [Google Play Store](#) and [Apple App Store](#).
-2. **Install the app**: Follow the on-screen instructions to install the app on your mobile device.
-3. **Sign Up/Login**: Create a new account or log in using your existing credentials.
+. **Download the app**: Available on [Google drive](https://drive.google.com/file/d/1eyExb27JgOwGoY4QHiXGzBtFUq84s7Wx/view?usp=drive_link).
+
 
 ## Usage
 
 ### Browsing Products
-1. **Home Screen**: Explore featured products and categories.
+ **Home Screen**: Explore featured gadgets.
 
 
 ### Placing an Order
-1. **Select Product**: Tap on a product to view its details.
-2. **Add to Cart**: Click on 'Add to Cart' to include the product in your shopping cart.
+1. **Select Product**.
+2. **Add **: Click on 'Add ' to include the product in your shopping cart.
 3. **View Cart**: Go to your cart to review selected items.
 4. **Checkout**: Proceed to checkout by entering your shipping details.
 
@@ -40,18 +39,45 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 
 
 ## Screenshots
-[Include screenshots of the app's interface here.]
+## HomePage
+ <img src="assets/images/homepage.png" alt="Example Image" width="500" height="1000"/>
+<br />
+<br />
+<br />
+<br />
+## HomePage2
+ <img src="assets/images/homepage2.png" alt="Example Image" width="500" height="1000"/>
+ <br />
+ <br />
+<br />
+<br />
+<br />
+## Cart Page
+ <img src="assets/images/addedtocart.png" alt="Example Image" width="500" height="1000"/>
+ <br />
+ <br />
+<br />
+<br />
+<br />
+## Check-Out page with price
+ <img src="assets/images/checkoutpage.png" alt="Example Image" width="500" height="1000"/>
+ <br />
+ <br />
+<br />
+<br />
+<br />
+## Check-Out Successful
+ <img src="assets/images/checkoutsucces.png" alt="Example Image" width="500" height="1000"/> 
 
-## Support
-If you encounter any issues or have any questions, please contact our support team:
-- **Email**: support@shopverse.com
-- **Phone**: +234 123 456 7890
 
 
 
-## View
-Appetizer view
 
-interact with the website using this link https://appetize.io/app/e5smlxelxeqzhnz2z4gqdgmhri?device=pixel7&osVersion=13.0&record=true
+
+## View on Appetize
+<b>Appetize </b> 
+
+<i> interact with the website using this link </i>
+[link](https://appetize.io/app/e5smlxelxeqzhnz2z4gqdgmhri?device=pixel7&osVersion=13.0&record=true)
 
 ---
