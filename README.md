@@ -40,34 +40,34 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 
 ## Screenshots
 ## HomePage
- <img src="assets/images/homepage.png" alt="Example Image" width="500" height="1500"/>
+ <img src="assets/images/homepage.png" alt="Example Image" width="500" height="1000"/>
 <br />
 <br />
 <br />
 <br />
 ## HomePage2
- <img src="assets/images/homepage2.png" alt="Example Image" width="500" height="1500"/>
+ <img src="assets/images/homepage2.png" alt="Example Image" width="500" height="1000"/>
  <br />
  <br />
 <br />
 <br />
 <br />
 ## Cart Page
- <img src="assets/images/addedtocart.png" alt="Example Image" width="500" height="1500"/>
+ <img src="assets/images/addedtocart.png" alt="Example Image" width="500" height="1000"/>
  <br />
  <br />
 <br />
 <br />
 <br />
 ## Check-Out page with price
- <img src="assets/images/checkoutpage.png" alt="Example Image" width="500" height="1500"/>
+ <img src="assets/images/checkoutpage.png" alt="Example Image" width="500" height="1000"/>
  <br />
  <br />
 <br />
 <br />
 <br />
 ## Check-Out Successful
- <img src="assets/images/checkoutsucces.png" alt="Example Image" width="500" height="1500"/> 
+ <img src="assets/images/checkoutsucces.png" alt="Example Image" width="500" height="1000"/> 
 
 
 
@@ -78,6 +78,6 @@ Welcome to **Shopverse** – Your ultimate mobile shopping solution! Shopverse a
 <b>Appetize </b> 
 
 <i> interact with the website using this link </i>
-![link](https://appetize.io/app/e5smlxelxeqzhnz2z4gqdgmhri?device=pixel7&osVersion=13.0&record=true)
+[link](https://appetize.io/app/e5smlxelxeqzhnz2z4gqdgmhri?device=pixel7&osVersion=13.0&record=true)
 
 ---
