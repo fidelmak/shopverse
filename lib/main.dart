@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:shopverse/provider/product.dart';
-import 'package:shopverse/screen/home_page.dart';
+import 'package:shopverse/model/use.dart';
+
 import 'package:shopverse/splash.dart';
 
 void main() {
@@ -13,13 +12,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) => ShopverseProduct(),
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'shopverse',
-        home: SplashScreen(),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'shopverse',
+      home: SafeArea(child: UseApp()),
     );
   }
 }
